@@ -41,3 +41,7 @@ This is a repository documenting the application for dipole FORA antenna design 
   - **`simulate.m`:**  
     - Executes simulation commands.
   - Ensure the mathematical definitions in both `.m` files are reviewed for accuracy.
+ 
+Output:
+![dipole_antenna](https://github.com/user-attachments/assets/cd267d7e-32a2-4da1-9fcb-15cc085679e5)
+
