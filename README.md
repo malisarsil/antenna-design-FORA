@@ -12,6 +12,11 @@ This is a repository documenting the application for dipole FORA antenna design 
     2. **Direct Input Mode:**
        - Provides a graphical user interface (GUI) for direct parameter input.
        - Automates the simulation based on the submitted inputs.
+    3. **Genetic Optimization Mode:**
+       - Employs a Genetic Algorithm (GA) implemented with the PyGAD Python library.
+       - Automatically explores a multi-dimensional design space defined by geometric and material parameters.
+       - Iteratively evolves antenna configurations to minimize the reflection coefficient (S11) at 2.45 GHz.
+       - Converges toward optimal designs without manual tuning by simulating, evaluating, and selecting high-performing candidates over successive generations.
 
 - **Behavior Based on `GUI_MODE`:**
   - If `GUI_MODE` is `True`, the program activates Direct Input Mode with a GUI.
